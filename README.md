@@ -1,32 +1,62 @@
-# SOC Analyst Dashboard
+# 🛡️ SOC Analyst Dashboard
 
-Mini SIEM/SOC dashboard built using Python and Streamlit.
+A Mini SOC/SIEM Dashboard built using Python, Streamlit, SQLite, AbuseIPDB API, and Email Notifications.
 
-## Features
+---
+
+# Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+# Charts
+
+![Charts](screenshots/charts.png)
+
+---
+
+# Timeline
+
+![Timeline](screenshots/timeline.png)
+
+---
+
+# Alerts
+
+![Alerts](screenshots/alerts.png)
+
+---
+
+# Email Notification
+
+![Email Alert](screenshots/email_alert.png)
+
+---
+
+# Features
+
 - IOC Detection
 - Brute Force Detection
 - Threat Intelligence (AbuseIPDB)
-- Email Notifications
+- Email Alerts
 - SQLite Database
-- Dashboard Metrics
-- Search by IP
-- Date Filters
-- Bar Chart
-- Pie Chart
-- Timeline Graph
+- Streamlit Dashboard
 - CSV Export
+- PDF Report Generation
 - Severity Levels
-- Clear Alerts
-- Auto Refresh
-- Dark Mode
+- Search Alerts
+- Date Filters
+- Charts and Timeline
 
-## Technologies Used
+---
+
+# Technologies Used
+
 - Python
 - Streamlit
 - SQLite
 - Matplotlib
 - AbuseIPDB API
 - SMTP Email
-
-## Workflow
-Log Files → Detection Engine → Threat Intelligence → Database → Dashboard → Reports → Email Alerts
+- Git & GitHub
