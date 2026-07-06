@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "4cc23b292ab26cddc6e47245851490168bf91192f9743d9609e1ffd224d1bba2f7f3f73eafe90f90"
+API_KEY = "YOUR_API_KEY"
 
 def check_ip(ip):
     url = "https://api.abuseipdb.com/api/v2/check"
